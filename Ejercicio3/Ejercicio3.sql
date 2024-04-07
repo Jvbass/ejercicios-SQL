@@ -1,5 +1,6 @@
-USE ACADEMIA;
+-- Juan V. Pino Contreras
 
+USE ACADEMIA;
 -- ❖ Seleccionar el nombre del alumno número 10 y el curso que está haciendo 
 SELECT A.nombre AS nombre_alumno10, C.nombre AS nombre_curso
 FROM ALUMNOS A JOIN CURSOS C 
@@ -22,10 +23,10 @@ JOIN asignaturas A ON P.cod_profesor = A.cod_profesor
 WHERE P.cod_profesor = 2;
 
 -- ❖ Visualizar las notas del alumno 10 
-SELECT N.nota,  AS notas_alumno_10
+SELECT N.nota AS notas_alumno_10
 FROM alumnos A
 JOIN notas_alumnos N ON A.cod_alumno = N.cod_alumno
-WHERE A.cod_alumno = 10
+WHERE A.cod_alumno = 10;
 
 -- ❖ Mostrar el curso y el promedio de notas de los alumnos 
 SELECT C.nombre AS curso, AVG(NA.nota) AS promedio_notas_alumnos
