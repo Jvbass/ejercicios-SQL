@@ -1,7 +1,5 @@
 															/*EJERCICIO2*/
 										-- Juan V. Pino Contreras
-
-
 /*Entra en la base de datos sakila*/
 USE sakila;
 

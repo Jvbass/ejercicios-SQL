@@ -1,5 +1,5 @@
--- Juan V. Pino Contreras
-
+								/*EJERCICIO3*/
+		-- Juan V. Pino Contreras
 USE ACADEMIA;
 -- ❖ Seleccionar el nombre del alumno número 10 y el curso que está haciendo 
 SELECT A.nombre AS nombre_alumno10, C.nombre AS nombre_curso
