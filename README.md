@@ -5,6 +5,7 @@
     <span>Juan Pino Contreras.</span>
 </div>
 
+****
 
 Este repositorio contiene una colección de ejercicios de práctica SQL diseñados para ayudarte a mejorar tus habilidades en el lenguaje de consulta estructurado (SQL). Los ejercicios fueron especialmente adaptados para ser utilizados con MySQL y el RDBMS MySQL Workbench 8.0 Community Edition o MySQL 8.0 Command Line Client.
 
